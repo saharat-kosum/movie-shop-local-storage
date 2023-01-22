@@ -1,0 +1,19 @@
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303134;
+    height: 60px;
+    padding: 13px;
+}
+
+li{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+li p{
+    margin-left: 15px;
+}

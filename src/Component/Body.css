@@ -1,0 +1,44 @@
+.Content{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.header{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header input{
+    height: 30px;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.MoviesContainer{
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+@media (max-width:900px) {
+    .MoviesContainer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width:600px) {
+    .MoviesContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:425px) {
+    .MoviesContainer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

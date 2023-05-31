@@ -11,7 +11,7 @@
 }
 
 .CardDetail h3{
-    height: 56px;
+    min-height: 56px;
 }
 
 .CardFooter{
